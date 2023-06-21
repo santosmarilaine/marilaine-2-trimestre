@@ -1,11 +1,10 @@
 :root {
     --cor-de-fundo: rgb(208, 16, 214);
+    --rosa: pink;
     } 
 
     body {
-        background-color: aquamarine;
+        background-color: var(--rosa)
     }
 
-    h1{
-        background-color: white;
-    }
+    
