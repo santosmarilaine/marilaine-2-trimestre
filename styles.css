@@ -1,0 +1,26 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+
+:root {
+    --cor-de-fundo: #633306;
+    --laranja: #b86406;
+    --branco: #ffffff;
+    --fonte_principal: "Roboto"
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.capalogo {
+    width: 60%;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte_principal);
+    font-size: 16px;
+    font-weight: 400;
+}
